@@ -29,13 +29,147 @@ body {
 }
 .row:nth-child(even) .cell:nth-child(even),
 .row:nth-child(odd) .cell:nth-child(odd) {
-  background-color: pink;
+  background-color: white;
 }
 .row:nth-child(even) .cell:nth-child(odd),
 .row:nth-child(odd) .cell:nth-child(even) {
   background-color: grey;
 }
-.cavalier {
-  background-image: url('./images/cavalier.jpg');
-  background-size: cover;
+.cavalier-black {
+  background-image: url('./images/cavalier-black.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cavalier-white {
+  background-image: url('./images/cavalier-white.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.pion-black {
+  background-image: url('./images/pion-black.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.pion-white {
+  background-image: url('./images/pion-white.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.fou-white {
+  background-image: url('./images/fou-white.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.fou-black {
+  background-image: url('./images/fou-black.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.tour-black {
+  background-image: url('./images/tour-black.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.tour-white {
+  background-image: url('./images/tour-white.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.queen-black {
+  background-image: url('./images/queen-black.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.queen-white {
+  background-image: url('./images/queen-white.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.king-black {
+  background-image: url('./images/king-black.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.king-white {
+  background-image: url('./images/king-white.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.nb {
+  position: relative;
+}
+.nb::after {
+  position: absolute;
+  top: 9px;
+  left: -20px;
+  font-size: 22px;
+}
+.huit::after {
+  content: '8';
+}
+.sept::after {
+  content: '7';
+}
+.six::after {
+  content: '6';
+}
+.cinq::after {
+  content: '5';
+}
+.quatre::after {
+  content: '4';
+}
+.trois::after {
+  content: '3';
+}
+.deux::after {
+  content: '2';
+}
+.un::after {
+  content: '1';
+}
+.lettre {
+  position: relative;
+}
+.lettre::before {
+  position: absolute;
+  bottom: -34px;
+  left: 15px;
+  font-size: 22px;
+}
+.a::before {
+  content: 'A';
+}
+.b::before {
+  content: 'B';
+}
+.c::before {
+  content: 'C';
+}
+.d::before {
+  content: 'D';
+}
+.e::before {
+  content: 'E';
+}
+.f::before {
+  content: 'F';
+}
+.g::before {
+  content: 'G';
+}
+.h::before {
+  content: 'H';
 }
