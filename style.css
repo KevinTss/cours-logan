@@ -145,7 +145,7 @@ body {
 }
 .lettre::before {
   position: absolute;
-  bottom: -34px;
+  top: -34px;
   left: 15px;
   font-size: 22px;
 }
